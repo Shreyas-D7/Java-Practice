@@ -1,0 +1,36 @@
+Command line commands -
+
+Creating folder - mkdir
+Delete a folder - rm -r (folder name)
+create a file - touch
+Delete a file - rm (file name)
+Delgit  loete all file - rm *
+Change directory - cd 
+Change directory to root - cd ~
+change directory to parent folder - cd ..
+create hidden folder - mkdir .(folder name)
+lists all file - ls
+lists all hidden file - ls -a
+
+Git commands
+ 
+ git init - git initialiaze in folder 
+ git status -  shows untracked files,
+ git add (file name) -  adds file to stagging area
+ git add .  - add all the files of folder in stagging area
+ git commit -m "(message)" - adding to  local repository
+ 					-m is used to add message
+ git log -  shows details of commits
+ git diff (file name) -  shows the modifications done b/w older version and new version
+ git checkout (filename) - gets the last commited version of file, if modifications done 
+ git remote add (remote name) (repository url) - creates remote location\
+ 
+ to update branch rename in local :-
+ git branch -m main master
+git fetch origin
+git branch -u origin/master master
+git remote set-head origin -a 
+ 
+ 
+ 
+ 

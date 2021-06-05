@@ -1,0 +1,45 @@
+Collection  (Interface)
+ 
+	* List (Interface) (preserve order, and provide duplication, null aslo allowed)
+		-ArrayList (retrieving operations)
+		-LinkedLst (more number of insertion and deletion)
+			-stored in form of nodes so retrieving operations will take more time
+		-Vector -> Stack (LIFO)
+		
+	* Sets (Interface) (doesn't preserve order,doesn't provide duplication) 
+		-HashSet (duplicates not allowed,  insertion order is not preserved)
+		-LinkedHashSet (duplicates not allowed, insertion order is preserved)
+					  (HashTable + Linked List)
+					  
+	* Queue (Interface) (FIFO)
+		 -Child Interfaces -->             
+			 D Queue (Interface)			
+			 BlockingQueue(Interface)		
+			 BlockingDQueue(Interface)
+		
+		 Child CLases --> (duplication is allowed, insertion order is preserved)
+				PrirorityQueue (only homogeneous data are allowed )
+				LinkedList(class) --> LinkedList(Interface)
+				
+*********************************************************************************************				
+
+ Map (Interface) - completely independent, not related to collection
+	 - key-value pair	
+	 - duplicate keys are not allowed, but value can be duplicated.
+			
+			HashMap (class)  --> 
+					- underlying data structure is HashTable.
+					- insertion order is not preserved.
+					- null key is allowed once, but duplicate null value is allowed.
+					- searching is fast.
+					
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
